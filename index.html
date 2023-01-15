@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5b7315c09d.js" crossorigin="anonymous"></script> 
+<link rel="stylesheet" href="n.css">
+    <link rel="stylesheet" href="style.css" >
+    
+    <title>site web de battiment</title>
+</head>
+<body>
+    <!-- start nav bar -->
+ <nav class="nav-bar">
+<div class="container">
+    <div class="burger-icon" onclick="displaynavbar()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="logo" >
+    <img src="logo.png" alt="">
+    </div>
+    <div class="menu ">
+        <a class="active" href="index.html"><i class="fa-solid fa-house"></i> Accueil</a>
+        <a href="#"><i class="fa-solid fa-person-digging"></i> Nos Projets</a>
+        <a href="contact.html"><i class="fa-solid fa-paper-plane"></i> Contactez-Nous</a>
+    <div onclick="closer()" class="close">
+        <i  class="fa-solid fa-xmark "></i>
+    </div>
+
+
+
+    </div>
+   <div class="contact"> <a href="contact.html">Contactez-Nous</a></div>
+
+
+
+
+
+
+</div>
+
+
+
+ </nav>
+    
+
+
+
+    <!-- end nav bar -->
+
+    <!--start home -->
+<section class="home" >
+
+      <div class="go-down">         <i class="fa-sharp fa-solid fa-angles-down"></i>
+      </div>
+    <div class="back">
+           <h1>EFFEL MULTISERVICES </h1> 
+           <p>Societe de Batiment et Travaux Publics</p>
+     <div class="btns">
+        <a class="sp" href="">learn more </a>
+        <a href="">see our projects </a>
+     </div>   
+    </div>
+</section>
+
+    <!--end home -->
+
+<!--start why-->
+<section class="why">
+    <div class="main-title">Why Us!</div>
+
+<div class="container">
+    
+  <div class="content">
+    <h1>nous somme competent</h1>
+    <p>Société Effel multiservices de bâtiment et travaux public 
+
+        - C'est une société à résponsabilité limitée sa nom été dérivée de la société effel construction tunis Que a été crée à Tunis juillet 2010.
+        Effel multiservices Son activité se spécialise au domaine de construction et travaux public, et tout ce que concerne les services de Travaux. 
+        
+        - Sa structure se compose d'un groupe des jeunes spécialisés au domaine de construction , de genie civil  , le services pour les chantiers des travaux    
+         accomlit avec succés .
+         
+        - La société Effel veut développer le niveau de la qualité de leurs travaux et les techniques de travail à ce domaine.</p>          </div>
+        <div class="image">
+            <img src="decoration.jpg" alt="">
+         </div>
+</div>
+
+
+</section>
+<!--end why-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--start about-->
+<section class="about">
+    <h1 class="main-title">Qui Sommes Nous ?</h1>
+  <div class="container">
+    <div class="image"><video src="video.mp4" autoplay loop  ></video></div>
+       
+ <p>Société Effel multiservices de bâtiment et travaux public 
+
+    - C'est une société à résponsabilité limitée sa nom été dérivée de la société effel construction tunis Que a été crée à Tunis juillet 2010.
+    Effel multiservices Son activité se spécialise au domaine de construction et travaux public, et tout ce que concerne les services de Travaux. 
+    
+    - Sa structure se compose d'un groupe des jeunes spécialisés au domaine de construction , de genie civil  , le services pour les chantiers des travaux    
+     accomlit avec succés .
+     
+    - La société Effel veut développer le niveau de la qualité de leurs travaux et les techniques de travail à ce domaine.</p>        
+
+</div>
+  
+</section>
+
+
+<!--end about-->
+
+
+
+<!--start services-->
+<section class="services">
+    <h1 class="main-title">Nos Services</h1>
+    <div class="container">
+        <div class="box">
+            <div class="image">              <img src="plombier.jpg" alt="">
+            </div>
+            <h4>plombier</h4>
+
+            <p>decoration Easily crop, resize, add frames or text, and customize with graphics or stickers, all in one click</p>            
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="electricite.jpg" alt="">
+
+            </div>
+          <h4>electricite</h4>
+
+          <p>decoration Easily crop, resize, add frames or text, and customize with graphics or stickers, all in one click</p>
+      </div>
+      <div class="box">
+        <div class="image">
+            <img src="peinture.jpg" alt="">
+
+        </div>
+        <h4>peinture</h4>
+
+        <p>decoration Easily crop, resize, add frames or text, and customize with graphics or stickers, all in one click</p>
+  </div>
+  <div class="box">
+    <div class="image">    <img src="alum.jpg" alt="">
+    </div>
+    <h4>menuiserie</h4>
+
+    <p>decoration Easily crop, resize, add frames or text, and customize with graphics or stickers, all in one click</p>
+</div>
+<div class="box">
+    <div class="image">    <img src="decoration.jpg" alt="">
+    </div>
+    <h4>decoration</h4>
+  <p>decoration Easily crop, resize, add frames or text, and customize with graphics or stickers, all in one click</p>
+</div>
+<div class="box">
+    <div class="image">
+        <img src="marine.jpg" alt="">
+
+    </div>
+    <h4>travaux des marines</h4>
+
+    <p>decoration Easily crop, resize, add frames or text, and customize with graphics or stickers, all in one click</p>
+</div>
+
+    </div>
+</section>
+
+
+
+
+<!--end services-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+var m=document.querySelector('.menu')
+var links=document.querySelectorAll('.menu a')
+var sec=document.querySelector('.about')
+var img=document.querySelector('.image')
+var klem=document.querySelector('.about p')
+
+window.onscroll = function() {
+    if(window.scrollY >= sec.offsetTop - 200 ){
+img.style.transform="translateX(0)"; 
+klem.style.transform="translateX(0)"; 
+
+
+ }
+};
+
+function closer(){
+    m.style.transform="translateX(-100%)";
+}
+
+
+function displaynavbar(){
+    m.style.transform="translateX(0)";
+}
+function f(){
+    links.forEach((e)=>{
+e.classList.remove('active')
+
+}
+)
+   this.classList.add('active')
+
+}
+links.forEach((e)=>{
+e.addEventListener('click',f)
+
+}
+)
+
+
+
+    </script>
+
+</body>
+</html>
